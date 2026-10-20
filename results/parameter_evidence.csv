@@ -1,0 +1,81 @@
+evidence_id,model_block,parameter_name,symbol,value_nominal,value_min,value_max,uncertainty,unit_si,distribution_or_law,conditions,particle_or_material,scenario,evidence_type,source_id,locator,verification_status,notes
+PE-001,0,micrometeoroid flux,Phi,800,,, ,particles/(m2*s),,particles >1 um; secondary ejecta included,regolith,day/night,MEASURED,SRC-L001,p.3,verified_metadata,800 particles cm-2 yr-1 for >1 um (Brownlee 1972)
+PE-002,0,regolith fraction <1mm,mass_frac,95,,,%,,particles <1 mm comprise >95% of regolith mass,regolith,general,LITERATURE_ESTIMATE,SRC-L001,p.5,verified_metadata,Most regolith mass is <1 mm
+PE-003,0,lunar dust size threshold,d_thresh,100,,,um,,dust defined as component <100 um,regolith,general,LITERATURE_ESTIMATE,SRC-L001,p.5,verified_metadata,Definition of lunar dust
+PE-004,0,mean particle size,d_mean,40,40,100,um,,mean particle size range 40-100 um; ~half of regolith weight,regolith,general,LITERATURE_ESTIMATE,SRC-L001,p.5,verified_metadata,Carrier 1973; McKay 1991
+PE-005,0,dominant particle size,d_dom,45,45,80,um,,most regolith mass in 45-80 um,regolith,general,LITERATURE_ESTIMATE,SRC-L001,p.5,verified_metadata,Carrier 1973; McKay 1991
+PE-006,0,mean particle size (Semkin),d_mean,70,,,um,,mean dust size ~70 um with fraction <1-3 um,regolith,general,LITERATURE_ESTIMATE,SRC-L005,p.2,verified_metadata,Conflicts with SRC-L001 40-100 um; record both
+PE-007,0,micrometeoroid speed,v_mm,10,10,70,km/s,,micrometeoroid speed at 1 AU,micrometeoroid,impact,LITERATURE_ESTIMATE,SRC-L008,p.46,verified_metadata,10-70 km/s at 1 AU
+PE-008,0,lunar escape velocity,v_esc,2.4,,,km/s,,second cosmic velocity for Moon,particle,ejecta,MEASURED,SRC-L002,p.1,verified_metadata,2.4 km/s lunar escape
+PE-009,0,lunar first cosmic velocity,v1,1.6,,,km/s,,first cosmic velocity for Moon,particle,ejecta,MEASURED,SRC-L008,p.48,verified_metadata,1.6 km/s; ejecta above this form dust cloud
+PE-010,0,solar wind speed,v_sw,400,,,km/s,,quiet solar wind speed,plasma,day,LITERATURE_ESTIMATE,SRC-L008,p.49,verified_metadata,~400 km/s quiet solar wind
+PE-011,1,LDEX detection radius,r_ldex,0.3,,,um,,LDEX detects individual particles >0.3 um radius,dust cloud,LADEE,MEASURED,SRC-L006,p.10,verified_metadata,LDEX instrument
+PE-012,1,LDEX impact rate,rate,1.0,,,1/min,,~1.0 and 0.1 impacts/min for different sizes,dust cloud,LADEE,MEASURED,SRC-L006,p.10,verified_metadata,LDEX impact rate
+PE-013,1,dust cloud concentration,n_cloud,1e-3,,,1/m3,,concentration range in dust cloud,dust cloud,LADEE,MEASURED,SRC-L006,p.10,verified_metadata,LDEX concentration
+PE-014,1,electrostatic accelerator max speed,v_max,3,,,km/s,,electrostatic accelerator reaches up to 3 km/s,metallic microparticle,laboratory,MEASURED,SRC-L002,p.1,verified_metadata,EG-8 accelerator
+PE-015,1,accelerator particle size,d_acc,1,1,1000,um,,most particles 1-1000 um,microparticle,laboratory,LITERATURE_ESTIMATE,SRC-L002,p.1,verified_metadata,Size range of accelerated particles
+PE-016,1,spacecraft impact speed,v_imp,20,,,km/s,,average spacecraft-dust collision speed,microparticle,spacecraft,LITERATURE_ESTIMATE,SRC-L002,p.1,verified_metadata,~20 km/s average
+PE-017,1,rover particle radius,r_rover,18,18,45,um,,rover model particle radius range,regolith,rover,ASSUMED,SRC-L003,p.2,verified_metadata,Model assumption; adhesion/electrostatic/centrifugal dominate
+PE-018,1,rover wheel velocity,V_wheel,,, ,m/s,,linear operating velocity of rover wheel,regolith,rover,ASSUMED,SRC-L003,p.7,verified_metadata,Model input parameter
+PE-019,1,rover slip ratio,slip,,, ,-,,slip ratio of rover wheel,regolith,rover,ASSUMED,SRC-L003,p.11,verified_metadata,Model input; high slip increases dust
+PE-020,2,ChangE5 soil size 95%,d_95,1.40,1.40,9.35,um,,95% of CE-5 soil sizes in 1.40-9.35 um,regolith,ChangE5,MEASURED,SRC-E017,abstract,verified_metadata,CE-5 particle size distribution
+PE-021,2,ChangE5 soil size 95% by mass,d_95m,4.84,4.84,432.27,um,,95% of CE-5 soil by mass in 4.84-432.27 um,regolith,ChangE5,MEASURED,SRC-E017,abstract,verified_metadata,CE-5 mass-weighted distribution
+PE-022,2,ChangE5 bulk density,rho_bulk,1.2387,,,g/cm3,,bulk density of CE-5 soil,regolith,ChangE5,MEASURED,SRC-E017,abstract,verified_metadata,1.2387 g/cm3
+PE-023,2,ChangE5 true density,rho_true,3.1952,,,g/cm3,,true density of CE-5 soil,regolith,ChangE5,MEASURED,SRC-E017,abstract,verified_metadata,3.1952 g/cm3
+PE-024,2,ChangE5 specific surface area,SSA,0.56,,,m2/g,,specific surface area of CE-5 soil,regolith,ChangE5,MEASURED,SRC-E017,abstract,verified_metadata,0.56 m2/g
+PE-025,2,highland fine fraction sizes,d_frac,10,10,45,um,,highland soil fine fractions 20-45, 10-20, <10 um,regolith,highlands,MEASURED,SRC-E016,abstract,verified_metadata,Taylor 2010 fine fractions
+PE-026,2,regolith particle size range,d_reg,20,20,500,um,,analyzed particle size range 20-500 um,regolith,general,MEASURED,SRC-L006,p.6,verified_metadata,Size analysis of returned samples
+PE-027,3,surface potential day,phi_day,10,,,V,,surface potential +10 V in subsolar region (SIDE),surface,day,MEASURED,SRC-L001,p.10,verified_metadata,Apollo SIDE experiment
+PE-028,3,surface potential night high-lat,phi_night,-100,,,V,,night surface potential -100 V in high-latitude lobes,surface,night,MEASURED,SRC-L001,p.14,verified_metadata,Lunar Prospector ER
+PE-029,3,surface potential night plasma sheet,phi_night2,-200,-200,-1000,V,,night potential -200 V to -1 kV in plasma sheet,surface,night,MEASURED,SRC-L001,p.14,verified_metadata,Lunar Prospector ER
+PE-030,3,surface potential solar max,phi_max,-4000,,,V,,night potential up to -4 kV at high solar activity,surface,night,MEASURED,SRC-L001,p.14,verified_metadata,Halekas 2008
+PE-031,3,terminator electric field,E_term,300,,,V/m,,electric field ~300 V/m at terminator,plasma,terminator,LITERATURE_ESTIMATE,SRC-L001,p.13,verified_metadata,Popel 2015
+PE-032,3,Debye length,lambda_D,10,,,m,,Debye radius ~10 m near surface,plasma,day,LITERATURE_ESTIMATE,SRC-L001,p.13,verified_metadata,Debye length
+PE-033,3,charging time,tau_ch,1e-3,,,s,,potential establishment time ~1e-3 s,plasma,general,LITERATURE_ESTIMATE,SRC-L001,p.8,verified_metadata,Halekas 2011
+PE-034,3,levitating particle radius,r_lev,5,5,6,um,,levitating particles radius ~5-6 um,regolith,levitation,LITERATURE_ESTIMATE,SRC-L001,p.8,verified_metadata,LHG observations
+PE-035,3,levitating particle concentration,n_lev,50,,,1/m2,,concentration ~50 particles/cm2 in column,regolith,levitation,LITERATURE_ESTIMATE,SRC-L001,p.8,verified_metadata,LHG observations
+PE-036,3,levitating particle size (Popel),d_lev,10,,,um,,mean size of levitating particles ~10 um,regolith,levitation,LITERATURE_ESTIMATE,SRC-L001,p.10,verified_metadata,Popel 2018
+PE-037,3,fountain particle size,d_fount,0.01,0.01,0.1,um,,fountain model particles 0.01-0.1 um reach 100 km,regolith,terminator,LITERATURE_ESTIMATE,SRC-L001,p.12,verified_metadata,Fountain model
+PE-038,3,levitation height,h_lev,100,,,km,,fountain particles reach up to 100 km,regolith,terminator,LITERATURE_ESTIMATE,SRC-L001,p.12,verified_metadata,Fountain model
+PE-039,3,charge for 1um particle,q_1um,1500,,,e,,charge q~1500 e needed to lift 1 um particle vs gravity,regolith,day,LITERATURE_ESTIMATE,SRC-L001,p.14,verified_metadata,Rosenfeld 2011
+PE-040,3,adhesion vs gravity threshold,d_adh,1000,,,um,,adhesion negligible vs gravity for particles >1e3 um,regolith,general,LITERATURE_ESTIMATE,SRC-L001,p.14,verified_metadata,Hartzell & Scheeres 2011
+PE-041,4,SiO2 particle size (light-shadow),d_sio2,40,40,50,um,,SiO2 quartz sand 40-50 um,SiO2,laboratory,MEASURED,SRC-L007,p.3,verified_metadata,Experiment material
+PE-042,4,SiO2 density,rho_sio2,2.6,,,g/cm3,,SiO2 density 2.6 g/cm3,SiO2,laboratory,MEASURED,SRC-L007,p.3,verified_metadata,Experiment material
+PE-043,4,activation threshold no UV,E_thr,1.1,,,kV/cm,,activation threshold ~1.1 kV/cm without UV,SiO2,laboratory,MEASURED,SRC-L007,p.4,verified_metadata,Plate voltage ~1.2 kV
+PE-044,4,electric field range,E_range,0.8,0.8,2.5,kV/cm,,field range for particle activation,SiO2,laboratory,MEASURED,SRC-L007,p.4,verified_metadata,0.8-2.5 kV/cm
+PE-045,4,particle charge (light-shadow),q_sio2,1e-14,1e-14,5e-14,C,,charge 1e-14 to 5e-14 C for SiO2 40-50 um,SiO2,laboratory,DERIVED,SRC-L007,p.6,verified_metadata,From trajectory analysis
+PE-046,4,Coulomb force,qE,1e-9,,,N,,Coulomb force ~1e-9 N at 1-3 kV/cm,SiO2,laboratory,DERIVED,SRC-L007,p.6,verified_metadata,Comparable to particle weight on Earth
+PE-047,4,required field for 50um on Moon,E_moon,6e3,6e3,6e4,V/cm,,required field 6e3-6e4 V/cm for 50 um particles on Moon,regolith,day,LITERATURE_ESTIMATE,SRC-L007,p.7,verified_metadata,Depends on adhesion coefficient
+PE-048,4,activation with UV,E_uv,0.4,0.4,0.5,kV/cm,,activation at 0.4-0.5 kV/cm with UV,SiO2,laboratory,MEASURED,SRC-L007,p.7,verified_metadata,UV reduces threshold
+PE-049,4,small particle activation threshold,d_small,10,10,15,um,,small particles 10-15 um Al2O3/mica higher threshold,Al2O3,mica,laboratory,MEASURED,SRC-L007,p.7,verified_metadata,Smaller particles higher threshold
+PE-050,4,electrode potential (Semkin),V_el,-40,-100,-40,V,,graphite plate potential -40 to -100 V,regolith,laboratory,MEASURED,SRC-L005,p.3,verified_metadata,Charging experiment
+PE-051,4,JSC-1 particle size,d_jsc,125,125,150,um,,JSC-1 simulant particles 125-150 um,simulant,laboratory,MEASURED,SRC-L005,p.3,verified_metadata,Contact charging at -20 V
+PE-052,4,levitation angle for 0.1um,r_lev2,0.1,,,um,,levitation possible for 0.1 um radius particle at 76.14 deg,regolith,terminator,DERIVED,SRC-L005,p.4,verified_metadata,Sun angle 76.14 deg
+PE-053,4,microparticle size range,d_micro,0.01,0.01,15,um,,microparticle size 0.01-15 um vs height,regolith,transport,LITERATURE_ESTIMATE,SRC-L005,p.8,verified_metadata,Size depends on height
+PE-054,4,levitation height (Semkin),h_lev2,100,,,km,,levitation height up to 100 km,regolith,transport,LITERATURE_ESTIMATE,SRC-L005,p.8,verified_metadata,Consistent with fountain model
+PE-055,4,surface concentration,n_surf,4e3,,,1/cm3,,surface concentration up to 4e3 cm-3,regolith,transport,LITERATURE_ESTIMATE,SRC-L005,p.8,verified_metadata,At surface
+PE-056,4,injector tip diameter,d_tip,4,,,um,,injector tip diameter 4 um at 8 kV,microparticle,laboratory,MEASURED,SRC-L005,p.9,verified_metadata,Charging electrode
+PE-057,4,injector field strength,E_inj,6.5e9,1e9,6.5e9,V/m,,field 6.5e9-1e9 V/m for 0.1-10 um particles,microparticle,laboratory,MEASURED,SRC-L005,p.9,verified_metadata,At 8 kV tip
+PE-058,4,accelerated particle speed,v_acc,400,400,1550,m/s,,speed 400-1550 m/s for mass 9e-10-1.1e-8 g,microparticle,laboratory,MEASURED,SRC-L005,p.10,verified_metadata,1-3 um diameter
+PE-059,4,injector max charge density,q_dens,13.4,,,C/kg,,max charge density 13.4 C/kg for radius <=200 um,microparticle,laboratory,MEASURED,SRC-L005,p.12,verified_metadata,Corresponds to 4e9 V/m for 1 um metal
+PE-060,4,accelerator speed range (Kuznetsov),v_acc2,0.5,0.5,115,km/s,,accelerator speeds 0.5-115 km/s for 0.03-2 um,microparticle,laboratory,MEASURED,SRC-L006,p.18,verified_metadata,Experimental setup
+PE-061,5,rover dust plume stratification,d_plume,20,,,um,,small particles radius <20 um dominate upper plume,regolith,rover,SIMULATED,SRC-L003,p.1,verified_metadata,High velocity/slip conditions
+PE-062,5,PSI ejecta speed,v_psi,,, ,m/s,,PSI ejecta at high speeds can damage hardware,regolith,lander,LITERATURE_ESTIMATE,SRC-E014,abstract,verified_metadata,PSI review
+PE-063,6,adhesion model,JKR,,, ,-,JKR model used for adhesion,regolith,rover,ASSUMED,SRC-L003,p.2,verified_metadata,JKR adopted for modeling
+PE-064,6,SiO2 roughness surrogate,r_rough,,, ,m,,SiO2 particle roughness used as surrogate,regolith,rover,ASSUMED,SRC-L003,p.3,verified_metadata,Surrogate for lunar dust
+PE-065,6,cohesion role in lofting,cohesion,,, ,-,cohesion stronger than gravity for small particles,regolith,lofting,MEASURED,SRC-E011,abstract,verified_metadata,Hartzell 2013 experiment
+PE-066,6,adhesion under vacuum/UV,adh_vac,,, ,-,adhesion measured under vacuum/UV conditions,simulant,adhesion,MEASURED,SRC-E012,abstract,verified_metadata,Barker 2022
+PE-067,7,adhesion vs gravity threshold (large),d_adh2,1000,,,um,,adhesion negligible vs gravity for >1e3 um,regolith,general,LITERATURE_ESTIMATE,SRC-L001,p.14,verified_metadata,Hartzell & Scheeres 2011
+PE-068,7,small particle adhesion dominance,d_adh3,10,,,um,,adhesion dominates for small particles,regolith,general,LITERATURE_ESTIMATE,SRC-L007,p.7,verified_metadata,Small particles adhesion dominates
+PE-069,8,micrometeoroid size range,d_mm,10,10,1e6,nm,,most particles 10 nm-1 mm,micrometeoroid,impact,LITERATURE_ESTIMATE,SRC-L008,p.57,verified_metadata,10 nm to 1 mm
+PE-070,8,micrometeoroid max speed,v_mm2,70,,,km/s,,speed up to 70 km/s,micrometeoroid,impact,LITERATURE_ESTIMATE,SRC-L008,p.57,verified_metadata,Max speed
+PE-071,17,dusty plasma particle size,d_dp,1,1,10,um,,dusty plasma particles 1-10 um observable by video,plasma,laboratory,MEASURED,SRC-L004,p.10,verified_metadata,Video observation
+PE-072,17,polystyrene particle diameter,d_ps,10.16,,,um,,polystyrene particles 10.16 um diameter,polystyrene,laboratory,MEASURED,SRC-L004,p.45,verified_metadata,Density 1.05 g/cm3
+PE-073,17,coupling parameter range,Gamma,10,10,600,,,coupling parameter Gamma 10-600,plasma,laboratory,MEASURED,SRC-L004,p.75,verified_metadata,Phase transition study
+PE-074,17,interparticle distance,rp,670,,,um,,mean interparticle distance ~670 um,plasma,laboratory,MEASURED,SRC-L004,p.75,verified_metadata,Monolayer structure
+PE-075,17,EDS mitigation,EDS,,, ,-,EDS removes dust from solar/radiator surfaces,mitigation,EDS,LITERATURE_ESTIMATE,SRC-E018,abstract,verified_metadata,Electrodynamic Dust Shield
+PE-076,17,NASA-STD-1008 testing,std,,, ,-,testing requirements for dust exposure,hardware,testing,LITERATURE_ESTIMATE,SRC-E003,abstract,verified_metadata,NASA standard
+PE-077,17,PSI flight validation,SCALPSS,,, ,-,SCALPSS stereo imaging anchors PSI models,regolith,lander,LITERATURE_ESTIMATE,SRC-E020,abstract,verified_metadata,SCALPSS development
+PE-078,17,NU-LHT simulant,simulant,,, ,-,NU-LHT highlands simulant based on Apollo 16,simulant,testing,LITERATURE_ESTIMATE,SRC-E021,abstract,verified_metadata,USGS-designed simulant
+PE-079,17,mitigation trade study,mitigation,,, ,-,trade study of mitigation technologies,mitigation,general,LITERATURE_ESTIMATE,SRC-E013,abstract,verified_metadata,Cannon 2022 review
+PE-080,17,lunar dust protection review,protection,,, ,-,review of active/passive mitigation,mitigation,general,LITERATURE_ESTIMATE,SRC-E023,abstract,verified_metadata,Zhang 2026 review
