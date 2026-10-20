@@ -1,0 +1,7 @@
+{
+  "collapse-filter": false,
+  "search": "path:notes OR path:ontology",
+  "showTags": true,
+  "showAttachments": false,
+  "hideUnresolved": false
+}

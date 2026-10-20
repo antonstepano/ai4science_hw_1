@@ -1,0 +1,26 @@
+# Дополнительные источники-кандидаты
+
+- **Lunar Dust Mitigation: A Guide and Reference: First Edition** (2023) — без DOI — https://ntrs.nasa.gov/citations/20220018746 — blocks: 6;7;8;14;15;16;17
+- **Lunar Dust Considerations for Vertical Solar Arrays, Volume 1: Lunar Environment and Dust Interactions** (2024) — без DOI — https://ntrs.nasa.gov/citations/20240003496 — blocks: 0;1;6;7;14;15
+- **NASA-STD-1008: Classifications and Requirements for Testing Systems and Hardware to Be Exposed to Dust in Planetary Environments** (2021) — без DOI — https://standards.nasa.gov/standard/nasa/nasa-std-1008 — blocks: 16;17
+- **Moon to Mars (M2M) Lunar Surface Data Book** (2025) — без DOI — https://ntrs.nasa.gov/citations/20250002845 — blocks: 0;1;2;3;4;6;7;16
+- **Lunar Sourcebook: A User’s Guide to the Moon** (1991) — без DOI — https://www.lpi.usra.edu/publications/books/lunar_sourcebook/ — blocks: 0;1;2;6;7
+- **Lunar Soils Grain Size Catalog** (1993) — без DOI — https://ntrs.nasa.gov/search.jsp?R=19930012474 — blocks: 2
+- **A permanent, asymmetric dust cloud around the Moon** (2015) — 10.1038/nature14479 — https://www.nature.com/articles/nature14479 — blocks: 1;5
+- **A dynamic fountain model for lunar dust** (2006) — 10.1016/j.asr.2005.04.048 — https://www.sciencedirect.com/science/article/pii/S0273117705004989 — blocks: 1;3;4;5
+- **Lunar dust charging by photoelectric emissions** (2007) — 10.1016/j.pss.2006.12.007 — https://www.sciencedirect.com/science/article/pii/S003206330600359X — blocks: 3;4
+- **Dynamics of levitating dust particles near asteroids and the Moon** (2013) — 10.1029/2012JE004162 — https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2012JE004162 — blocks: 3;4;5
+- **Experimental demonstration of the role of cohesion in electrostatic dust lofting** (2013) — 10.1002/grl.50230 — https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/grl.50230 — blocks: 4;6;11
+- **Adhesion of lunar simulant dust to materials under simulated lunar environment conditions** (2022) — 10.1016/j.actaastro.2022.07.003 — https://www.sciencedirect.com/science/article/pii/S009457652200340X — blocks: 6;11;17
+- **Working with lunar surface materials: Review and analysis of dust mitigation and regolith conveyance technologies** (2022) — 10.1016/j.actaastro.2022.04.037 — https://www.sciencedirect.com/science/article/pii/S0094576522001965 — blocks: 15;16
+- **Plume-surface interactions: A review of experimental work** (2025) — 10.1016/j.actaastro.2024.09.021 — https://eprints.gla.ac.uk/336869/ — blocks: 1;5;17
+- **Apollo 12 Lunar Module exhaust plume impingement on Lunar Surveyor III** (2011) — 10.1016/j.icarus.2010.11.013 — https://www.sciencedirect.com/science/article/pii/S001910351000432X — blocks: 1;12;17
+- **Mineralogical and chemical characterization of lunar highland soils: Insights into the space weathering of soils on airless bodies** (2010) — 10.1029/2009JE003427 — https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2009JE003427 — blocks: 2;5
+- **Characteristics of the lunar samples returned by the Chang’E-5 mission** (2022) — 10.1093/nsr/nwab188 — https://doi.org/10.1093/NSR/NWAB188 — blocks: 2
+- **History and Flight Development of the Electrodynamic Dust Shield** (2015) — без DOI — https://ntrs.nasa.gov/citations/20150016082 — blocks: 15;17
+- **Dust Mitigation for Flexible Solar Arrays (DMFlex)** (2022) — без DOI — https://ntrs.nasa.gov/citations/20220013150 — blocks: 14;15
+- **SCALPSS / Plume-Surface Interaction development** (2024) — без DOI — https://ntrs.nasa.gov/api/citations/20240005561/downloads/SCALPSS_development_240501.pdf — blocks: 1;5;17
+- **Lunar Regolith Simulants: NU-LHT** (n.d.) — без DOI — https://ares.jsc.nasa.gov/projects/simulants/nu-lht.html — blocks: 2;4;17
+- **Lunar Surface Data and Lunar Sample Catalogs** (n.d.) — без DOI — https://www.lpi.usra.edu/lunar/surface/ — blocks: 2;6;7
+- **Lunar Dust Protection Technology and Evaluation: A Review** (2026) — без DOI — https://www.mdpi.com/2226-4310/13/2/153 — blocks: 15;16;17
+- **Lunar Surface Technology — Dust Mitigation** (2026) — без DOI — https://www.nasa.gov/lunar-surface-technology/ — blocks: 15
